@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  /* outline: auto; */
+}
+
+h1 {
+  text-align: center;
+}
+
+.recipe-card {
+  display: block;
+  text-align: center;
+  color: black;
+  font-size: larger;
+  text-decoration: none;
+  margin: 40px 200px;
+  padding: 10px;
+  /* outline: auto;
+  outline-color: bisque; */
+}
+
+.recipe-card:hover {
+  text-decoration: underline;
+}
+
+.recipe-card img {
+  height: 250px; 
+  width: 250px;
+  object-fit: cover;
+}
+
+.recipe-card p {
+  margin: 0;
+}
